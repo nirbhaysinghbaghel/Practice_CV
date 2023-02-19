@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Order Completion Email Notification</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f1f1f1;
+			padding: 20px;
+		}
+		h2 {
+			color: #ff7f50;
+			text-align: center;
+		}
+		table {
+			margin-top: 20px;
+			border-collapse: collapse;
+			width: 100%;
+			background-color: #fff;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+		}
+		th, td {
+			padding: 10px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+		th {
+			background-color: #ff7f50;
+			color: white;
+		}
+		td:first-child {
+			font-weight: bold;
+		}
+		td:last-child {
+			text-align: right;
+		}
+		p {
+			margin-top: 20px;
+			line-height: 1.5;
+		}
+		.signature {
+			margin-top: 40px;
+			text-align: right;
+			font-style: italic;
+		}
+	</style>
+</head>
+<body>
+	<h2>Thank you for your purchase!</h2>
+	<p>Dear [Customer Name],</p>
+	<p>Your order has been completed and is now being processed for shipment. Below is a summary of your order:</p>
+	<table border="1">
+		<tr>
+			<th>Product</th>
+			<th>Quantity</th>
+			<th>Price</th>
+		</tr>
+		<tr>
+			<td>[Product Name]</td>
+			<td>[Quantity]</td>
+			<td>[Price]</td>
+		</tr>
+		<tr>
+			<td>[Product Name]</td>
+			<td>[Quantity]</td>
+			<td>[Price]</td>
+		</tr>
+		<!-- Repeat for each product in the order -->
+		<tr>
+			<td colspan="2">Subtotal:</td>
+			<td>[Subtotal]</td>
+		</tr>
+		<tr>
+			<td colspan="2">Shipping:</td>
+			<td>[Shipping]</td>
+		</tr>
+		<tr>
+			<td colspan="2">Tax:</td>
+			<td>[Tax]</td>
+		</tr>
+		<tr>
+			<td colspan="2">Total:</td>
+			<td>[Total]</td>
+		</tr>
+	</table>
+	<p>We will send you a tracking number as soon as your order has shipped. If you have any questions or concerns about your order, please contact us at [Contact Email Address].</p>
+	<p>Thank you for choosing our ecommerce website!</p>
+	<div class="signature">
+		<p>Sincerely,</p>
+		<p>The [Website Name] Team</p>
+	</div>
+</body>
+</html>
